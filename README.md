@@ -2,6 +2,7 @@
 
 ![GitHub repo size](https://img.shields.io/github/languages/code-size/Skizzy-create/Velocity-Prediction-for-S2-33?style=plastic)
 ![GitHub license](https://img.shields.io/github/license/Skizzy-create/Velocity-Prediction-for-S2-33)
+![GitHub repfile count](https://img.shields.io/github/directory-file-count/Skizzy-create/Velocity-Prediction-for-S2-33)
 
 This project is a Linear Regression-based model created to predict the velocity of S2-33 at different stages of flight. The model utilizes various data parameters to make accurate predictions. The current accuracy of the model is 98.89%. 🚀🔮
 
