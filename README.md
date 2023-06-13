@@ -1,19 +1,10 @@
-# Velocity Prediction for S2-33
+# 🚀🔮 Velocity Prediction for S2-33
 
-![GitHub repo size](https://img.shields.io/github/languages/code-size/Skizzy-create/Velocity-Prediction-for-S2-33?style=plastic)
-![GitHub license](https://img.shields.io/github/license/Skizzy-create/Velocity-Prediction-for-S2-33)
-![GitHub repfile count](https://img.shields.io/github/directory-file-count/Skizzy-create/Velocity-Prediction-for-S2-33)
+![GitHub code size](https://img.shields.io/github/languages/code-size/Skizzy-create/Velocity-Prediction-for-S2-33?style=flat-square)
+![GitHub license](https://img.shields.io/github/license/Skizzy-create/Velocity-Prediction-for-S2-33?style=flat-square)
+![GitHub file count](https://img.shields.io/github/directory-file-count/Skizzy-create/Velocity-Prediction-for-S2-33?style=flat-square)
 
 This project is a Linear Regression-based model created to predict the velocity of S2-33 at different stages of flight. The model utilizes various data parameters to make accurate predictions. The current accuracy of the model is 98.89%. 🚀🔮
-
-## Table of Contents
-
-- [Overview](#overview)
-- [Data Parameters](#data-parameters)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Overview
 
@@ -33,6 +24,14 @@ The following data parameters are used to predict the velocity:
 - **Pressure**: The atmospheric pressure at the aircraft's current location. ☁️🌡️
 - **GForce**: The gravitational force experienced by the aircraft. ⚖️🪂
 
+## Screenshots
+
+<p align="center">
+  <img src="https://github.com/Skizzy-create/Velocity-Prediction-for-S2-33/assets/112803348/6e3e01d5-e414-438f-913f-d5b1521508ac" alt="Original Vs Predicted" width="300">
+  <img src="https://github.com/Skizzy-create/Velocity-Prediction-for-S2-33/assets/112803348/2549719d-affc-4323-9b19-a8d077a6bc31" alt="Original Vs Predicted - Sorted" width="300">
+  <img src="https://github.com/Skizzy-create/Velocity-Prediction-for-S2-33/assets/112803348/28fac934-be33-4347-8752-41382bfd9308" alt="Difference" width="300">
+</p>
+
 ## Installation
 
 To run the Velocity Prediction model locally, follow these steps:
@@ -49,7 +48,9 @@ To run the Velocity Prediction model locally, follow these steps:
    cd Velocity-Prediction-for-S2-33
    ```
 
-3. Install the required dependencies. Make sure you have [Python](https://www.python.org/downloads/) installed. 🐍🔧
+3. Install the required dependencies. Make sure you have [Python
+
+](https://www.python.org/downloads/) installed. 🐍🔧
 
    ```bash
    pip install -r requirements.txt
