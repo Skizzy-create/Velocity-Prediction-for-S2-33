@@ -26,43 +26,43 @@ The following data parameters are used to predict the velocity:
 
 ## Screenshots
 
-Orignal Vs Predicted
-![Original Vs Predicted](https://github.com/Skizzy-create/Velocity-Prediction-for-S2-33/blob/main/assets/original_vs_predicted.png)
-
-Original Vs Predicted - Sorted
-![Original Vs Predicted - Sorted](https://github.com/Skizzy-create/Velocity-Prediction-for-S2-33/blob/main/assets/original_vs_predicted_sorted.png)
-
-Difference
-![Difference](https://github.com/Skizzy-create/Velocity-Prediction-for-S2-33/blob/main/assets/difference_original_vs_predicted.png)
+<p align="center">
+  <img src="https://github.com/Skizzy-create/Velocity-Prediction-for-S2-33/assets/112803348/6e3e01d5-e414-438f-913f-d5b1521508ac" alt="Original Vs Predicted" width="300">
+  <img src="https://github.com/Skizzy-create/Velocity-Prediction-for-S2-33/assets/112803348/2549719d-affc-4323-9b19-a8d077a6bc31" alt="Original Vs Predicted - Sorted" width="300">
+  <img src="https://github.com/Skizzy-create/Velocity-Prediction-for-S2-33/assets/112803348/28fac934-be33-4347-8752-41382bfd9308" alt="Difference" width="300">
+</p>
 
 ## Installation
 
 To run the Velocity Prediction model locally, follow these steps:
 
 1. Clone the repository:
-   ```
+
+   ```bash
    git clone https://github.com/Skizzy-create/Velocity-Prediction-for-S2-33.git
    ```
 
 2. Navigate to the project directory:
-   ```
+
+   ```bash
    cd Velocity-Prediction-for-S2-33
    ```
 
-3. Install the required dependencies. Make sure you have Python installed. 🐍🔧
-   ```
+3. Install the required dependencies. Make sure you have [Python
+
+](https://www.python.org/downloads/) installed. 🐍🔧
+
+   ```bash
    pip install -r requirements.txt
    ```
 
 ## Usage
 
-1. Ensure you have the training data available in the `training.csv` file. The file contains 3224 rows of training data.
+1. Ensure you have the training data available in the `traning.csv` file. The file contains 3224 rows of training data.
 
 2. Run the `VelocityModel1.ipynb` notebook, which contains the code for the velocity prediction model.
 
-3. The notebook will
-
- train the model using the provided training data and evaluate its accuracy. 📊✅
+3. The notebook will train the model using the provided training data and evaluate its accuracy. 📊✅
 
 4. Once the model is trained, you can use it to predict velocities for different flight scenarios by providing the relevant data parameters.
 
